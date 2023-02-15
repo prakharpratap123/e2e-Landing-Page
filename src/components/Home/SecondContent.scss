@@ -1,0 +1,34 @@
+.second-content-container {
+  background-image: url("https://institute.e2ehiring.com/content/d2bf76a4a2b0b49c42f3b421da64fcf5.svg");
+  background-repeat: no-repeat;
+  height: 150vh;
+  width: 100%;
+
+  .content-solution {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .e2e-logo {
+      margin-right: 10px;
+      height: 22px;
+      width: 22px;
+    }
+
+    .para {
+      font-family: Arial;
+      font-weight: 900;
+      color: #de373a;
+    }
+  }
+
+  .description {
+    margin: auto;
+    max-width: 45%;
+    text-align: center;
+    margin-top: 25px;
+    font-family: SF Pro Display;
+    font-weight: 400;
+  }
+}

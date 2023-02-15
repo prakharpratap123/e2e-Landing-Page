@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  background: url("https://institute.e2ehiring.com/content/95196bdd715aaf7f1d410aeb3d60bca8.jpg")
+    cover;
+
+  .navbar {
+    display: flex;
+    // background-color: #fff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    // height: 70px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px -1px 6px #00000050;
+    // width: 100%;
+  }
+
+  .logo {
+    height: 40px;
+    width: 90px;
+    margin-left: 40px;
+  }
+
+  .nav-item {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+    color: #1d1d1d;
+    cursor: pointer;
+    padding: 10px 0px;
+    margin: 0px 15px;
+    font-family: SF Pro Display;
+    font-style: normal;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+  }
+
+  .register {
+    color: #ef6264;
+    border: 2px solid #ef6264;
+    border-radius: 5px;
+    padding: 8px 20px;
+    width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .login {
+    color: #fff;
+    border: 2px solid #ef6264;
+    background-color: #ef6264;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    margin-right: 50px;
+  }
+
+  .login:hover {
+    background-color: #2872b7;
+    border-color: #2872b7;
+  }
+  .register:hover {
+    background-color: #2872b7;
+    border-color: #2872b7;
+    color: #fff;
+  }
+
+  .mobile-menu-icon {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    display: none;
+  }
+
+  @media screen and (max-width: 800px) {
+    .mobile-menu-icon {
+      display: block;
+      position: absolute;
+      left: 30px;
+    }
+
+    .nav-links {
+      display: none;
+    }
+
+    .logo {
+      justify-content: flex-end;
+      position: absolute;
+      right: 50px;
+    }
+
+    .nav-links-mobile {
+      display: block;
+      position: absolute;
+      top: 80px;
+      left: 20px;
+      // flex-direction: column;
+
+      .login {
+        margin-top: 15px;
+      }
+    }
+  }
+}

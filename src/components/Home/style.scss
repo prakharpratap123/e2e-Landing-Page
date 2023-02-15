@@ -1,0 +1,49 @@
+.home-container {
+  background-image: url("https://institute.e2ehiring.com/content/95196bdd715aaf7f1d410aeb3d60bca8.jpg");
+  background-repeat: no-repeat;
+  height: calc(100vh - 80px);
+  //   width: 100%;
+  background-size: cover;
+
+  .content-description {
+    // width: 50%;
+    max-width: 50%;
+    padding-left: 40px;
+    padding-top: 200px;
+    text-align: left;
+    .heading-1 {
+      font-family: SF Pro Display !important;
+      color: #333;
+      font-size: 35px;
+      font-weight: 1000;
+      //   font-style: bold;
+    }
+    .heading-2 {
+      font-family: "SF Pro Display" !important;
+      color: #333;
+      font-size: 50px;
+      font-weight: 900;
+      margin-top: 15px;
+      //   line-height: 90px;
+      //   margin-bottom: 20px;
+      //   font-style: bold;
+    }
+  }
+
+  .btn-container {
+    margin-top: 30px;
+    padding-left: 40px;
+  }
+
+  .btn-container .register-now-btn {
+    width: 187px;
+    height: 50px;
+    font-size: 17px;
+    background-color: #de373a;
+    border-radius: 5px;
+    border: 1px solid #de373a;
+    color: #fff;
+  }
+}
+
+//bg-Color :  #f7f7f7

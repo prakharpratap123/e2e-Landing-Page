@@ -1,0 +1,23 @@
+.card-container {
+  background-color: aquamarine;
+  box-sizing: border-box;
+  width: 360px;
+  height: 486px;
+  padding: 24px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  .card-logo {
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    display: flex;
+  }
+  .title-div .p1 {
+    font-family: SF Pro Display;
+    font-weight: 900;
+  }
+  .title-div .p2 {
+    font-family: SF Pro Display;
+    font-weight: 800;
+  }
+}
